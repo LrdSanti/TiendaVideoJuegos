@@ -1,0 +1,14 @@
+<!-- admin.component.html -->
+
+<div class="container mt-4">
+  <h2>Lista de Videojuegos  - INVITADO</h2>
+  <div class="card-deck">
+    <div *ngFor="let videojuego of videojuegos" class="card m-3" >
+      <img [src]="'assets/' + videojuego.imagen + '.jpeg'" class="card-img-top" alt="{{videojuego.nombre}}">
+      <div class="card-body">
+        <h5 class="card-title">{{ videojuego.nombre }}</h5>
+        <p class="card-text">{{ videojuego.descripcion }}</p>
+        <p class="card-text"><small class="text-muted">Precio: ${{ videojuego.precio }}</small></p>
+      </div>
+    </div>
+  </div>

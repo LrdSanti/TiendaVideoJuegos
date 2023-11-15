@@ -1,0 +1,11 @@
+.btn-red{
+    background-color: rgb(243, 105, 105);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+h2{
+    color: rgb(243, 105, 105);
+}

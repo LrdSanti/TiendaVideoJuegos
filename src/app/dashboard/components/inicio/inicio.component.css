@@ -1,0 +1,14 @@
+.head{
+    border-radius: 15px;
+    background-color: rgb(243, 105, 105);
+}
+
+a{
+    stroke: 100;
+}
+
+.contenedor-juegos{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 175, 175);
+}
